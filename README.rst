@@ -7,13 +7,12 @@ Currently using the `StringSearchAlgorithms <http://stringsearchalgorithms.amygd
 - Uses the `Immutables <https://github.com/immutables/immutables/tree/master/ordinal/src/org/immutables/ordinal>` library to create classes with builders
 - Uses the @NonNull annotation to generate `IllegalArgumentException` when passed a Null
 - Uses the Option from `Fugue <https://bitbucket.org/atlassian/fugue>` which is serializable and supports functional operations such as map
-  - `Why optional is broken <https://developer.atlassian.com/blog/2015/08/optional-broken/>`
-  - `Map operator put back in java.util.Optional <http://mail.openjdk.java.net/pipermail/lambda-dev/2013-February/008346.html>`
+   - `Why optional is broken <https://developer.atlassian.com/blog/2015/08/optional-broken/>`
+   - `Map operator put back in java.util.Optional <http://mail.openjdk.java.net/pipermail/lambda-dev/2013-February/008346.html>`
 - Uses `PIT testing <http://pitest.org/quickstart/maven/>`
   ::
 
    mvn -DwithHistory org.pitest:pitest-maven:mutationCoverage
-
 
 TODO
 ====
